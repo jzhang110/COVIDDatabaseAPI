@@ -5,7 +5,6 @@ const CovidData = require('../../models/Coviddata');
 
 
 
-
 router.get('/test',(req,res)=>{
     res.json({msg:'success'})
 })
